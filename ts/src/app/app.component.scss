@@ -124,6 +124,10 @@ header h2 {
   margin-top: 0.40em;
 }
 
+select {
+  font-family: 'Quicksand', 'FontAwesome', 'Second Font name';
+}
+
 #languageSelect {
   background: #FDF1EB;
   width: 6.06rem;
@@ -254,5 +258,6 @@ main h2 {
   font-size: 1rem;
   line-height: 1.172rem;
   margin-left: 2.25rem;
-  margin-top: 0.3rem;
+  margin-top: 0.425em;
 }
+
