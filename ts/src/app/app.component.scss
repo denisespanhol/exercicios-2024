@@ -217,4 +217,42 @@ main h2 {
   letter-spacing: 0.05em;
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 0;
+}
+
+#downloadBttn {
+  position: absolute;
+  background: #ED7839;
+  width: 7.5rem;
+  height: 1.938rem;
+  top: 0;
+  margin-left: 52.625rem;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#downloadIcon {
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  top: 0;
+  left: 0;
+  margin-top: 0.2rem;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.38rem;
+  letter-spacing: 0.01em;
+}
+
+#downloadTxt{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.172rem;
+  margin-left: 2.25rem;
+  margin-top: 0.3rem;
 }
