@@ -8,7 +8,7 @@
     Phasellus condimentum orci id leo condimentum lobortis et non lorem. 
     Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum
     <span id="dots" *ngIf="!showMore">...</span><span id="more" *ngIf="showMore">.
-  
+
     <p class="resumeText">
         Fusce vitae luctus dui. 
         Donec id euismod mauris, in volutpat urna. 
@@ -43,8 +43,8 @@
         Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus placerat vitae. 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </span>
-    <a class="btn-show-more" (click)="toggleShowMore()">{{ showMore ? 'ver menos' : 'ver mais' }}</a>
-    </p>
+    <a class="btn-show-more" *ngIf="showButton" (click)="toggleShowMore()">ver mais</a>
+
     
     
     

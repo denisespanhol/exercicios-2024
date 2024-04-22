@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShowMoreButtonComponent implements OnInit {
   showMore = false;
+  showButton = true;
 
   toggleShowMore() {
     this.showMore = !this.showMore;
+    this.showButton = !this.showButton;
   }
 
   constructor() { }
