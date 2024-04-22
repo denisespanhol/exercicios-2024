@@ -358,6 +358,20 @@ main h2 {
   width: 13.25rem;
   height: 22.75rem;
   margin: 0.938rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#detailsTextDiv::-webkit-scrollbar {
+  background: rgb(219, 204, 204);
+  width: 0.188rem;
+  height: 22.938rem;
+  border-radius: 0.313rem;
+}
+
+#detailsTextDiv::-webkit-scrollbar-thumb {
+  background: rgb(182, 174, 174);
+  border-radius: 0.313rem;
 }
 
 #detailsText {
