@@ -697,8 +697,27 @@ main h2 {
 
 #topicFooter {
   background: pink;
+  display: flex;
+  flex-direction: row;
+
   width: 10.313rem;
   height: 1.188rem;
   margin-left: 1.5rem;
+}
+
+#likeBttn {
+  margin: 0;
+  background: rgba(237, 120, 57, 1);
+  width: 1.688rem;
+  height: 1.188rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+#likeIcon {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 0.188rem;
+  font-size: 0.875rem;
+  line-height: 0.875;
 }
 
