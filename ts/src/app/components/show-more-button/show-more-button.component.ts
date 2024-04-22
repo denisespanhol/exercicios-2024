@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./show-more-button.component.scss']
 })
 export class ShowMoreButtonComponent implements OnInit {
+  showMore = false;
+
+  toggleShowMore() {
+    this.showMore = !this.showMore;
+  }
 
   constructor() { }
 
