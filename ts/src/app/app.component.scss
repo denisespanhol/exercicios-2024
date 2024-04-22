@@ -319,3 +319,37 @@ main h2 {
   
   letter-spacing: 0.05em;
 }
+
+#detailsDiv {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15.125rem;
+  height: 27.438rem;
+  margin-left: 51rem;
+  margin-top: 4.563rem;
+  border-radius: 0.188rem 0.188rem 0 0;
+  border: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+}
+
+#detailsHeader {
+  background: rgba(253, 241, 235, 1);
+  width: 15.125rem;
+  height: 2.813rem;
+  border-radius: 0.188rem 0.188rem 0 0;
+  border: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+}
+
+#detailsTitle {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  color: rgba(78, 78, 78, 1);
+  padding-left: 1.10rem;
+  padding-top: 0.688rem;
+}
