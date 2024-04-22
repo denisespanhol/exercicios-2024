@@ -661,20 +661,6 @@ main h2 {
   margin-left: 1.511rem;
 }
 
-#topicBody {
-  background: pink;
-  width: 61.292rem;
-  height: 2.188rem;
-  margin-left: 1.511rem;
-}
-
-#topicFooter {
-  background: pink;
-  width: 10.313rem;
-  height: 1.188rem;
-  margin-left: 1.5rem;
-}
-
 #topicTitle {
   margin: 0;
   color: rgba(237, 120, 57, 1);
@@ -692,3 +678,27 @@ main h2 {
   font-size: 0.75rem;
   line-height: 0.938rem;
 }
+
+#topicBody {
+  background: pink;
+  width: 61.292rem;
+  height: 2.188rem;
+  margin-left: 1.511rem;
+}
+
+#topicBodyText {
+  margin: 0;
+  color: rgba(77, 77, 77, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.094rem;
+}
+
+#topicFooter {
+  background: pink;
+  width: 10.313rem;
+  height: 1.188rem;
+  margin-left: 1.5rem;
+}
+
