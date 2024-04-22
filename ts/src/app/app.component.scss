@@ -494,10 +494,11 @@ main h2 {
 }
 
 #resumeDiv {
+  display: inline-block;
   position: absolute;
   top: 0;
   width: 66.125rem;
-  height: 35rem;
+  height: fit-content;
   margin-top: 33.875rem;
   border-style: solid;
   border-color: rgba(236, 236, 236, 1);
@@ -527,8 +528,9 @@ main h2 {
 }
 
 #resumeTextDiv {
+  display: inline-block;
   width: 64.25rem;
-  height: 30.313rem;
+  height: fit-content;
   margin: 0.938rem;
 }
 
@@ -542,5 +544,16 @@ main h2 {
   text-indent: 0.313;
   margin: 0;
   padding-bottom: 2rem;
-  resize: horizontal;
+  resize: auto;
+}
+
+#more {
+  display: none;
+}
+
+.btn-show-more {
+  color: #ED7839;
+  font-weight: 700;
+  line-height: 1.333rem;
+  text-indent: 0.313rem;
 }
