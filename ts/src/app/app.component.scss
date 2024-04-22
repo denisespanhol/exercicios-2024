@@ -353,3 +353,124 @@ main h2 {
   padding-left: 1.10rem;
   padding-top: 0.688rem;
 }
+
+#detailsTextDiv {
+  width: 13.25rem;
+  height: 22.75rem;
+  margin: 0.938rem;
+}
+
+#detailsText {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.9rem;
+  letter-spacing: 0.02em;
+  color: rgba(92, 92, 92, 1);
+  break-before: 100px;
+}
+
+// Pôster
+#detailsText > span:nth-of-type(1) {
+  font-weight: 700;
+}
+
+// Alimentação e saúde (AS)
+#detailsText > span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+// Alimentos funcionais, alimentação escolar.
+#detailsText > span:nth-of-type(3) {
+  font-weight: 700;
+}
+
+// Autores
+#detailsText > span:nth-of-type(4) {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// Galileo Galilei
+#detailsText > span:nth-of-type(5) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ¹
+#detailsText > span:nth-of-type(6) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Berta Lange de Morretes
+#detailsText > span:nth-of-type(7) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ²
+#detailsText > span:nth-of-type(8) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Isaac Newton
+#detailsText > span:nth-of-type(9) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ³
+#detailsText > span:nth-of-type(10) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Cesar Lattes
+#detailsText > span:nth-of-type(11) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ¹
+#detailsText > span:nth-of-type(12) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Stephen Hawking
+#detailsText > span:nth-of-type(13) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ⁴
+#detailsText > span:nth-of-type(14) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Universidade Estadual de Campinas...
+#detailsText > span:nth-of-type(15) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
