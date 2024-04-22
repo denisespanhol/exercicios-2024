@@ -651,6 +651,12 @@ main h2 {
   height: 9.25rem;
   margin-left: 0.938rem;
   margin-top: 0.938rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(231, 231, 231, 1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+  
 }
 
 #topicHeader {
