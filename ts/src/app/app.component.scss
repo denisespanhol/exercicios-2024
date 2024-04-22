@@ -587,4 +587,22 @@ main h2 {
   height: 3.059rem;
   margin-left: 25.156rem;
   margin-top: 1.688rem;
+  margin-bottom: 0;
+}
+
+#discussionTextDiv {
+  width: 39.125rem;
+  height: 2.438rem;
+  margin-left: 13.531rem;
+  margin-top: 2.191rem;
+}
+
+#discussionText {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.203rem;
+  color: rgba(89, 89, 89, 1);
+  text-align: center;
 }
