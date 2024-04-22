@@ -644,9 +644,30 @@ main h2 {
 }
 
 #topicDiv {
-  background: pink;
+  background: aquamarine;
   width: 64.25rem;
   height: 9.25rem;
   margin-left: 0.938rem;
   margin-top: 0.938rem;
+}
+
+#topicHeader {
+  background: pink;
+  width: 33.879rem;
+  height: 2.375rem;
+  margin-left: 1.511rem;
+}
+
+#topicBody {
+  background: pink;
+  width: 61.292rem;
+  height: 2.188rem;
+  margin-left: 1.511rem;
+}
+
+#topicFooter {
+  background: pink;
+  width: 10.313rem;
+  height: 1.188rem;
+  margin-left: 1.5rem;
 }
