@@ -296,3 +296,26 @@ main h2 {
 #doiImg {
   margin-top: 0.2rem;
 }
+
+#ComoCitarDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 14.938rem;
+  height: 1.563rem;
+  margin-left: 51.25rem;
+  margin-top: 2.688rem;
+}
+
+#ComoCitarTxt {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: rgba(237, 120, 57, 1);
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
+  font-weight: 500;
+  font-size: 0.875rem;
+  
+  letter-spacing: 0.05em;
+}
