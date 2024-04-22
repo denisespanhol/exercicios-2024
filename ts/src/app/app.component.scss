@@ -608,6 +608,9 @@ main h2 {
 }
 
 .btn-create-topic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 8.313rem;
   height: 2rem;
   background: linear-gradient(#FEB254, #F0813D);
@@ -616,4 +619,26 @@ main h2 {
   border-color: rgba(0, 0, 0, 0);
   margin-left: 28.938rem;
   margin-top: 0.875rem;
+}
+
+#createTopicText {
+  color: white;
+  margin: 0;
+  margin-top: 0.35rem;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.938rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+#plusIcon {
+  color: white;
+  margin: 0;
+  margin-top: 0.28rem;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1rem;
+  text-align: center;
 }
