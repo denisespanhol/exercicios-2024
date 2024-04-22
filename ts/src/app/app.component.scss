@@ -495,7 +495,6 @@ main h2 {
 
 #resumeDiv {
   display: inline-block;
-  position: absolute;
   top: 0;
   width: 66.125rem;
   height: fit-content;
@@ -536,3 +535,10 @@ main h2 {
   overflow: hidden;
 }
 
+#discussionsDiv {
+  background-color: pink;
+  top: 0;
+  width: 66.125rem;
+  height: 38.813rem;
+  margin-top: 1.875rem;
+}
