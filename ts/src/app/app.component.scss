@@ -674,3 +674,21 @@ main h2 {
   height: 1.188rem;
   margin-left: 1.5rem;
 }
+
+#topicTitle {
+  margin: 0;
+  color: rgba(237, 120, 57, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+#nameOfWhoAsked {
+  margin: 0;
+  color: rgba(92, 92, 92, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+}
