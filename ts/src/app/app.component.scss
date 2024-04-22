@@ -525,3 +525,22 @@ main h2 {
   margin-left: 0.938rem;
   margin-top: 0.625rem;
 }
+
+#resumeTextDiv {
+  width: 64.25rem;
+  height: 30.313rem;
+  margin: 0.938rem;
+}
+
+.resumeText {
+  color: rgba(92, 92, 92, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.422rem;
+  letter-spacing: 0.02em;
+  text-indent: 0.313;
+  margin: 0;
+  padding-bottom: 2rem;
+  resize: horizontal;
+}
