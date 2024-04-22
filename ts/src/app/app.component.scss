@@ -536,7 +536,6 @@ main h2 {
 }
 
 #discussionsDiv {
-  background-color: pink;
   top: 0;
   width: 66.125rem;
   height: 38.813rem;
@@ -545,4 +544,25 @@ main h2 {
   border-radius: 0.188rem;
   border-color: rgba(236, 236, 236, 1);
   border-width: 0.063rem;
+}
+
+#discussionsHeaderDiv {
+  background: rgba(253, 241, 235, 1);
+  width: 66.125rem;
+  height: 2.813rem;
+  border-style: solid;
+  border-radius: 0.188rem, 0.188rem, 0, 0;
+  border-color: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+}
+
+#discussionsTitle {
+  color: rgba(78, 78, 78, 1);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  margin: 0;
+  margin-left: 0.938rem;
+  margin-top: 0.625rem;
 }
