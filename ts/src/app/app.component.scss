@@ -580,7 +580,9 @@ main h2 {
 }
 
 #iconsDiv {
-  background: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 15.706rem;
   height: 3.059rem;
   margin-left: 25.156rem;
