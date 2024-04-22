@@ -645,6 +645,9 @@ main h2 {
 
 #topicDiv {
   background: aquamarine;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
   width: 64.25rem;
   height: 9.25rem;
   margin-left: 0.938rem;
