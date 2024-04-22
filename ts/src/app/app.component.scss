@@ -504,6 +504,7 @@ main h2 {
   border-color: rgba(236, 236, 236, 1);
   border-width: 0.063rem;
   border-radius: 0.188rem;
+  overflow: hidden;
 }
 
 #resumeHeaderDiv {
@@ -532,5 +533,6 @@ main h2 {
   width: 64.25rem;
   height: fit-content;
   margin: 0.938rem;
+  overflow: hidden;
 }
 
