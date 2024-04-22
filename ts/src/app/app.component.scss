@@ -643,7 +643,7 @@ main h2 {
   text-align: center;
 }
 
-#topicDiv {
+.topicDiv {
   flex-direction: column;
   justify-content: space-around;
   display: flex;
@@ -656,16 +656,15 @@ main h2 {
   border-width: 0.063rem;
   border-color: rgba(231, 231, 231, 1);
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
-  
 }
 
-#topicHeader {
+.topicHeader {
   width: 33.879rem;
   height: 2.375rem;
   margin-left: 1.511rem;
 }
 
-#topicTitle {
+.topicTitle {
   margin: 0;
   color: rgba(237, 120, 57, 1);
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
@@ -674,7 +673,7 @@ main h2 {
   line-height: 1.25rem;
 }
 
-#nameOfWhoAsked {
+.nameOfWhoAsked {
   margin: 0;
   color: rgba(92, 92, 92, 1);
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
@@ -683,13 +682,13 @@ main h2 {
   line-height: 0.938rem;
 }
 
-#topicBody {
+.topicBody {
   width: 61.292rem;
   height: 2.188rem;
   margin-left: 1.511rem;
 }
 
-#topicBodyText {
+.topicBodyText {
   margin: 0;
   color: rgba(77, 77, 77, 1);
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
@@ -698,7 +697,7 @@ main h2 {
   line-height: 1.094rem;
 }
 
-#topicFooter {
+.topicFooter {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -707,7 +706,7 @@ main h2 {
   margin-left: 1.5rem;
 }
 
-#likeBttn {
+.likeBttn {
   margin: 0;
   background: rgba(237, 120, 57, 1);
   width: 1.688rem;
@@ -716,14 +715,14 @@ main h2 {
   border: none;
 }
 
-#likeIcon {
+.likeIcon {
   color: rgba(255, 255, 255, 1);
   margin-top: 0.188rem;
   font-size: 0.875rem;
   line-height: 0.875;
 }
 
-#likeText {
+.likeText {
   color: rgba(117, 117, 117, 1);
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -732,7 +731,7 @@ main h2 {
   line-height: 1.164rem;
 }
 
-#answerBttnText {
+.answerBttnText {
   color: rgba(117, 117, 117, 1);
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
