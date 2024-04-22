@@ -261,3 +261,34 @@ main h2 {
   margin-top: 0.425em;
 }
 
+#favoriteBttn {
+  position: absolute;
+  background: #ED7839;
+  width: 2.688rem;
+  height: 1.938rem;
+  top: 0;
+  margin-left: 60.438rem;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#favoriteIcon {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.38rem;
+  letter-spacing: 0.01em;
+}
+
+#doiBttn {
+  position: absolute;
+  background: #ED7839;
+  width: 2.688rem;
+  height: 1.938rem;
+  top: 0;
+  margin-left: 63.438rem;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+}
