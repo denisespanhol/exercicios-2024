@@ -124,6 +124,10 @@ header h2 {
   margin-top: 0.40em;
 }
 
+select {
+  font-family: 'Quicksand', 'FontAwesome', 'Second Font name';
+}
+
 #languageSelect {
   background: #FDF1EB;
   width: 6.06rem;
@@ -189,3 +193,550 @@ header h2 {
   margin-bottom: 0;
   margin-left: 0.188rem;
 }
+
+/* Main content */
+main {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 66.188rem;
+  height: 86.375rem;
+  margin-left: 16.438rem;
+  margin-top: 5.5rem;
+}
+
+#mainTitleDiv {
+  width: 49.125rem;
+  height: 3.375rem;
+}
+
+main h2 {
+  color: #ED7839;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+#downloadBttn {
+  position: absolute;
+  background: #ED7839;
+  width: 7.5rem;
+  height: 1.938rem;
+  top: 0;
+  margin-left: 52.625rem;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#downloadIcon {
+  position: absolute;
+  color: rgba(255, 255, 255, 1);
+  top: 0;
+  left: 0;
+  margin-top: 0.2rem;
+  margin-left: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.38rem;
+  letter-spacing: 0.01em;
+}
+
+#downloadTxt{
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.172rem;
+  margin-left: 2.25rem;
+  margin-top: 0.425em;
+}
+
+#favoriteBttn {
+  position: absolute;
+  background: #ED7839;
+  width: 2.688rem;
+  height: 1.938rem;
+  top: 0;
+  margin-left: 60.438rem;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#favoriteIcon {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.38rem;
+  letter-spacing: 0.01em;
+}
+
+#doiBttn {
+  position: absolute;
+  background: #ED7839;
+  width: 2.688rem;
+  height: 1.938rem;
+  top: 0;
+  margin-left: 63.438rem;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+#doiImg {
+  margin-top: 0.2rem;
+}
+
+#ComoCitarDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14.938rem;
+  height: 1.563rem;
+  margin-left: 51.25rem;
+  margin-top: 2.688rem;
+}
+
+#ComoCitarTxt {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: rgba(237, 120, 57, 1);
+  margin-top: 0;
+  margin-bottom: 0;
+  float: right;
+  font-weight: 500;
+  font-size: 0.875rem;
+  
+  letter-spacing: 0.05em;
+}
+
+#detailsDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15.125rem;
+  height: 27.438rem;
+  margin-left: 51rem;
+  margin-top: 4.563rem;
+  border-radius: 0.188rem 0.188rem 0 0;
+  border-color: rgba(236, 236, 236, 1);
+  border-style: solid;
+  border-width: 0.063rem;
+}
+
+#detailsHeader {
+  background: rgba(253, 241, 235, 1);
+  width: 15.125rem;
+  height: 2.813rem;
+  border-radius: 0.188rem 0.188rem 0 0;
+  border-color: rgba(236, 236, 236, 1);
+  border-style: solid;
+  border-width: 0.063rem;
+}
+
+#detailsTitle {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  color: rgba(78, 78, 78, 1);
+  padding-left: 1.10rem;
+  padding-top: 0.688rem;
+}
+
+#detailsTextDiv {
+  width: 13.25rem;
+  height: 22.75rem;
+  margin: 0.938rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+#detailsTextDiv::-webkit-scrollbar {
+  background: rgb(219, 204, 204);
+  width: 0.188rem;
+  height: 22.938rem;
+  border-radius: 0.313rem;
+}
+
+#detailsTextDiv::-webkit-scrollbar-thumb {
+  background: rgb(182, 174, 174);
+  border-radius: 0.313rem;
+}
+
+#detailsText {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.9rem;
+  letter-spacing: 0.02em;
+  color: rgba(92, 92, 92, 1);
+  break-before: 100px;
+}
+
+// Pôster
+#detailsText > span:nth-of-type(1) {
+  font-weight: 700;
+}
+
+// Alimentação e saúde (AS)
+#detailsText > span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+// Alimentos funcionais, alimentação escolar.
+#detailsText > span:nth-of-type(3) {
+  font-weight: 700;
+}
+
+// Autores
+#detailsText > span:nth-of-type(4) {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// Galileo Galilei
+#detailsText > span:nth-of-type(5) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ¹
+#detailsText > span:nth-of-type(6) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Berta Lange de Morretes
+#detailsText > span:nth-of-type(7) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ²
+#detailsText > span:nth-of-type(8) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Isaac Newton
+#detailsText > span:nth-of-type(9) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ³
+#detailsText > span:nth-of-type(10) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Cesar Lattes
+#detailsText > span:nth-of-type(11) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ¹
+#detailsText > span:nth-of-type(12) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Stephen Hawking
+#detailsText > span:nth-of-type(13) {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+// ⁴
+#detailsText > span:nth-of-type(14) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+// Universidade Estadual de Campinas...
+#detailsText > span:nth-of-type(15) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: rgb(173, 160, 160);
+}
+
+#videoPlayer {
+  position: absolute;
+  top: 0;
+  margin-top: 4.563rem;
+}
+
+#resumeDiv {
+  display: inline-block;
+  top: 0;
+  width: 66.125rem;
+  height: fit-content;
+  margin-top: 33.875rem;
+  border-style: solid;
+  border-color: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+  border-radius: 0.188rem;
+  overflow: hidden;
+}
+
+#resumeHeaderDiv {
+  background: rgba(253, 241, 235, 1);
+  width: 66.125rem;
+  height: 2.813rem;
+  border-style: solid;
+  border-color: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+  border-radius: 0.188rem 0.188rem 0 0;
+}
+
+#resumeTitle {
+  color: rgba(78, 78, 78, 1);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  margin: 0;
+  margin-left: 0.938rem;
+  margin-top: 0.625rem;
+}
+
+#resumeTextDiv {
+  display: inline-block;
+  width: 64.25rem;
+  height: fit-content;
+  margin: 0.938rem;
+  overflow: hidden;
+}
+
+#discussionsDiv {
+  top: 0;
+  width: 66.125rem;
+  height: 38.813rem;
+  margin-top: 1.875rem;
+  border-style: solid;
+  border-radius: 0.188rem;
+  border-color: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+}
+
+#discussionsHeaderDiv {
+  background: rgba(253, 241, 235, 1);
+  width: 66.125rem;
+  height: 2.813rem;
+  border-style: solid;
+  border-radius: 0.188rem, 0.188rem, 0, 0;
+  border-color: rgba(236, 236, 236, 1);
+  border-width: 0.063rem;
+}
+
+#discussionsTitle {
+  color: rgba(78, 78, 78, 1);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  margin: 0;
+  margin-left: 0.938rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+#compartilheText {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.318rem;
+  margin-left: 20.281rem;
+  margin-top: 0.938em;
+  margin-bottom: 0;
+  color: rgba(237, 120, 57, 1);
+}
+
+#iconsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15.706rem;
+  height: 3.059rem;
+  margin-left: 25.156rem;
+  margin-top: 1.688rem;
+  margin-bottom: 0;
+}
+
+#discussionTextDiv {
+  width: 39.125rem;
+  height: 2.438rem;
+  margin-left: 13.531rem;
+  margin-top: 2.191rem;
+}
+
+#discussionText {
+  margin: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.203rem;
+  color: rgba(89, 89, 89, 1);
+  text-align: center;
+}
+
+.btn-create-topic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 8.313rem;
+  height: 2rem;
+  background: linear-gradient(#FEB254, #F0813D);
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(0, 0, 0, 0);
+  margin-left: 28.938rem;
+  margin-top: 0.875rem;
+}
+
+#createTopicText {
+  color: white;
+  margin: 0;
+  margin-top: 0.35rem;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.938rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+#plusIcon {
+  color: white;
+  margin: 0;
+  margin-top: 0.28rem;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.topicDiv {
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  width: 64.25rem;
+  height: 9.25rem;
+  margin-left: 0.938rem;
+  margin-top: 0.938rem;
+  border-style: solid;
+  border-radius: 0.25rem;
+  border-width: 0.063rem;
+  border-color: rgba(231, 231, 231, 1);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.topicHeader {
+  width: 33.879rem;
+  height: 2.375rem;
+  margin-left: 1.511rem;
+}
+
+.topicTitle {
+  margin: 0;
+  color: rgba(237, 120, 57, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.nameOfWhoAsked {
+  margin: 0;
+  color: rgba(92, 92, 92, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.938rem;
+}
+
+.topicBody {
+  width: 61.292rem;
+  height: 2.188rem;
+  margin-left: 1.511rem;
+}
+
+.topicBodyText {
+  margin: 0;
+  color: rgba(77, 77, 77, 1);
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.094rem;
+}
+
+.topicFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10.313rem;
+  height: 1.188rem;
+  margin-left: 1.5rem;
+}
+
+.likeBttn {
+  margin: 0;
+  background: rgba(237, 120, 57, 1);
+  width: 1.688rem;
+  height: 1.188rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+#likeIcon {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 0.188rem;
+  font-size: 0.875rem;
+  line-height: 0.875;
+}
+
+.likeText {
+  color: rgba(117, 117, 117, 1);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 350;
+  font-size: 0.875rem;
+  line-height: 1.164rem;
+}
+
+.answerBttnText {
+  color: rgba(117, 117, 117, 1);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 350;
+  font-size: 0.875rem;
+  line-height: 1.164rem;
+}
+

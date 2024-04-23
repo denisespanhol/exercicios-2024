@@ -1,0 +1,39 @@
+#dots {
+    margin-left: -0.25rem;
+    margin-right: 0.25rem;
+}
+
+#toPaddingFirstParag {
+    padding-top: 2rem;
+}
+
+#firstParagraph {
+    padding: 0;
+}
+
+#lastParagraph {
+    padding: 0;
+}
+
+.resumeText {
+    color: rgba(92, 92, 92, 1);
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.422rem;
+    letter-spacing: 0.02em;
+    text-indent: 0.313;
+    margin: 0;
+    padding-bottom: 2rem;
+  }
+
+.btn-show-more {
+    color: #ED7839;
+    font-weight: 700;
+    line-height: 1.333rem;
+    text-indent: 0.313rem;
+  }
+
+.hide-button {
+    visibility: hidden;
+}

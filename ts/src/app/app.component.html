@@ -41,8 +41,9 @@
       <p id="secondParagraph">ISSN: 1234-5678</p>
     </div>
     <select id="languageSelect">
-      <option value="#">PT, BR</option>
-      <option value="#">ENG</option>
+      <i class="fas fa-globe"></i>
+      <option value="#">&nbsp;&nbsp;&nbsp; PT, BR</option>
+      <option value="#">&nbsp;&nbsp;&nbsp; ENG</option>
     </select>
     <div id="headerUserDiv">
       <p id="welcomeText">Bem vindo!</p>
@@ -54,8 +55,147 @@
         2
       </p>
     </div>
-    
   </header>
+
+  <!-- Main Content -->
+  <main>
+    <div id="mainTitleDiv">
+      <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h2>
+    </div>
+    <button id="downloadBttn">
+      <span class="fas fa-download" id="downloadIcon"></span>
+      <p id="downloadTxt">Download</p>
+    </button>
+    <button id="favoriteBttn">
+      <span class="fas fa-star" id="favoriteIcon"></span>
+    </button>
+    <button id="doiBttn">
+      <img src="../assets/doiImage.png" alt="doi" width="19rem" height="19rem" id="doiImg">
+    </button>
+    <div id="ComoCitarDiv">
+      <p id="ComoCitarTxt">COMO CITAR ESSE TRABALHO?</p>
+    </div>
+    <aside id="detailsDiv">
+      <div id="detailsHeader">
+        <p id="detailsTitle">Detalhes</p>
+      </div>
+      <div id="detailsTextDiv">
+        <p id="detailsText">Tipo de Apresentação: <span>Pôster</span> <br>
+          Eixo temático: <span>Alimentação e saúde (AS)</span> <br>
+          Palavras-chaves: <span>Alimentos funcionais, alimentação escolar.</span> <br>
+          <br>
+          <span>Autores:</span><br>
+          <span>Galileo Galilei</span><span>¹</span><br>
+          <span>Berta Lange de Morretes</span><span>²</span><br>
+          <span>Isaac Newton</span><span>³</span><br>
+          <span>Cesar Lattes</span><span>¹</span><br>
+          <span>Stephen Hawking</span><span>⁴</span><br>
+          <br><br><br>
+          <span>¹Universidade Estadual de Campinas<br>
+          ²Universidade de São Paulo<br>
+          ³Instituto Nacional de Pesquisas Espaciais<br>
+          ⁴Universidade Federal do Rio de Janeiro</span></p>
+          <br><br><br>
+      </div>
+    </aside>
+    <iframe width="784px" height="439px" id="videoPlayer"
+    src="https://www.youtube.com/embed/qKaZsgWrIOs?si=kINMXFICCG6tTVtO" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+  <section id="resumeDiv">
+    <div id="resumeHeaderDiv">
+      <p id="resumeTitle">Resumo</p>
+    </div>
+    <div id="resumeTextDiv">
+      <app-show-more-button></app-show-more-button>
+    </div>
+  </section>
+  <section id="discussionsDiv">
+    <div id="discussionsHeaderDiv">
+      <p id="discussionsTitle">Discussões</p>
+    </div>
+    <p id="compartilheText">Compartilhe suas ideias ou dúvidas com os autores!</p>
+    <div id="iconsDiv">
+      <img src="../assets/icon1.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
+      <img src="../assets/icon2.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
+      <img src="../assets/icon3.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
+    </div>
+    <div id="discussionTextDiv">
+      <p id="discussionText">
+        Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? 
+        Deixe seus questionamentos ou sugestões para o autor!
+      </p>
+    </div>
+    <button class="btn-create-topic">
+      <span id="plusIcon">+</span>
+      <p id="createTopicText">
+        criar tópico
+      </p>
+    </button>
+    <div class="topicDiv">
+      <div class="topicHeader">
+        <p class="topicTitle">
+          Assunto da pergunta aparece aqui
+        </p>
+        <p class="nameOfWhoAsked">
+          Carlos Henrique Santos
+        </p>
+      </div>
+      <div class="topicBody">
+        <p class="topicBodyText">
+          Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão 
+          e impacto de processo formativo situado impacto de processo formativo processo...
+        </p>
+      </div>
+      <div class="topicFooter">
+        <img src="../assets/moreInfos.png" alt="moreInfo" width="4px" height="18px">
+        <button class="likeBttn">
+          <span class="fas fa-heart" id="likeIcon"></span>
+        </button>
+        <p class="likeText">
+          1 like
+        </p>
+        <p class="answerBttnText">
+          1 resposta
+        </p>
+      </div>
+    </div>
+
+    <div class="topicDiv">
+      <div class="topicHeader">
+        <p class="topicTitle">
+          Assunto da pergunta aparece aqui
+        </p>
+        <p class="nameOfWhoAsked">
+          Carlos Henrique Santos
+        </p>
+      </div>
+      <div class="topicBody">
+        <p class="topicBodyText">
+          Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão 
+          e impacto de processo formativo situado impacto de processo formativo processo...
+        </p>
+      </div>
+      <div class="topicFooter">
+        <img src="../assets/moreInfos.png" alt="moreInfo" width="4px" height="18px">
+        <button class="likeBttn">
+          <span class="fas fa-heart" id="likeIcon"></span>
+        </button>
+        <p class="likeText">
+          1 like
+        </p>
+        <p class="answerBttnText">
+          1 resposta
+        </p>
+      </div>
+    </div>
+    
+  </section>
+  </main>
 </body>
 
 
