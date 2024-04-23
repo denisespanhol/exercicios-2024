@@ -2,11 +2,12 @@
     background: rgba(248, 248, 248, 1);
     position: relative;
     width: 64.25rem;
-    height: 8.188rem;
+    height: fit-content;
     margin-left: 0.938rem;
     border-style: solid;
     border-width: 0.063rem;
     border-color: rgba(231, 231, 231, 1);
+    padding-bottom: 2.25rem;
 }
 
 .authorNameDiv {
@@ -27,7 +28,6 @@
 }
 
 .authorCommentDiv {
-    position: absolute;
     width: 61.351rem;
     height: 3.313rem;
     margin-left: 1.449rem;
