@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  createTopicWasClicked: boolean = false;
+  createTopicWasClicked: boolean = true;
   visible: boolean = false;
 
   onclick()
