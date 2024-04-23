@@ -15,5 +15,10 @@ export class AppComponent {
     this.visible = !this.visible;
   }
 
+  changeVisible(isVisible: boolean)
+  {
+    this.visible = isVisible;
+  }
+
   title = 'DevChuva';
 }

@@ -145,12 +145,10 @@
 
     
     <ng-container *ngIf="visible">
-      <app-create-forms-component></app-create-forms-component>
+      <app-create-forms-component [visible]="visible" (changeVisibleEvent)="changeVisible($event)"></app-create-forms-component>
     </ng-container>
     
-    <ng-container>
-      <app-success-topic-sent></app-success-topic-sent>
-    </ng-container>
+  
     
     <div class="topicDiv">
       <div class="topicHeader">
