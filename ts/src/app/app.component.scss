@@ -770,3 +770,31 @@ footer {
   line-height: 1.094rem;
   text-align: center;
 }
+
+label {
+  color: rgba(237, 120, 57, 1);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.172rem;
+}
+
+#assunto {
+  width: 64.095rem;
+  height: 1.563rem;
+  left: -0.029;
+  border-width: 0.063rem;
+  border-style: solid;
+  border-radius: 0.188rem;
+  border-color: rgba(204, 204, 204, 1);
+}
+
+#conteudo {
+  width: 64.095rem;
+  height: 4.125rem;
+  left: -0.029;
+  border-width: 0.063rem;
+  border-style: solid;
+  border-radius: 0.188rem;
+  border-color: rgba(204, 204, 204, 1);
+}
