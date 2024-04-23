@@ -795,7 +795,30 @@ label {
   left: -0.029;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.188rem;
+  border-top-left-radius: 0.188rem;
+  border-top-right-radius: 0.188rem;
   border-color: rgba(204, 204, 204, 1);
   resize: none;
+}
+
+#sendFormBttnDiv {
+  background: rgba(234, 241, 242, 1);
+  margin-top: -0.313rem;
+  width: 64.35rem;
+  height: 1.938rem;
+  border-style: solid;
+  border-width: 0.063rem;
+  border-color: rgba(204, 204, 204, 1);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+#sendFormBttn {
+  background: linear-gradient(#FEB154, #F1833E);
+  float: right;
+  width: 12.819rem;
+  height: 1.938rem;
+  border-width: 0;
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-right-radius: 0.25rem;
 }
