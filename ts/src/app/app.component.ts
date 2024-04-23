@@ -27,5 +27,10 @@ export class AppComponent {
     this.waitingFeedback = isVisible;
   }
 
+  answerClick()
+  {
+    this.showAnswers = !this.showAnswers;
+  }
+
   title = 'DevChuva';
 }
