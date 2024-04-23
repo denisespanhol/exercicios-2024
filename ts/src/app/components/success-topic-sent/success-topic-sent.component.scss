@@ -68,10 +68,42 @@
 }
 
 #waitingFeedbackDiv {
-    background: pink;
+    position: relative;
     width: 64.25rem;
     height: 9.25rem;
     margin-left: 0.938rem;
     margin-top: 0.875rem;
+    
 }
 
+#doubleCheckIcon {
+    position: absolute;
+    margin-left: 30.338rem;
+    margin-top: 2.188rem;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    color: rgba(112, 112, 112, 1);
+}
+
+#waitingFeedbacText {
+    position: absolute;
+    margin-left: 19.323rem;
+    margin-top: 4.125rem;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: rgba(112, 112, 112, 1);
+}
+
+#editTopicOption {
+    position: absolute;
+    margin-left: 27.439rem;
+    margin-top: 5.875rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.164rem;
+    color: rgba(237, 120, 57, 1);
+}
