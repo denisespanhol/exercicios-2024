@@ -1,0 +1,91 @@
+#formsDiv {
+    width: 64.063rem;
+    height: 15.313rem;
+    margin-left: 1rem;
+  }
+  
+  #shareFeedbackTextDiv {
+    width: 60.336rem;
+    height: 1.125rem;
+    margin-left: 1.927rem;
+    margin-top: -0.125;
+  }
+  
+  #shareFeedbackText {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.094rem;
+    text-align: center;
+  }
+  
+  label {
+    color: rgba(237, 120, 57, 1);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.172rem;
+  }
+  
+  #assunto {
+    width: 64.095rem;
+    height: 1.563rem;
+    left: -0.029;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-radius: 0.188rem;
+    border-color: rgba(204, 204, 204, 1);
+  }
+  
+  ::placeholder {
+    color: rgba(77, 77, 77, 1);
+    padding: 1.446rem;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.094rem;
+  }
+  
+  #conteudo {
+    width: 64.095rem;
+    height: 4.125rem;
+    left: -0.029;
+    border-width: 0.063rem;
+    border-style: solid;
+    border-top-left-radius: 0.188rem;
+    border-top-right-radius: 0.188rem;
+    border-color: rgba(204, 204, 204, 1);
+    resize: none;
+  }
+  
+  #sendFormBttnDiv {
+    background: rgba(234, 241, 242, 1);
+    margin-top: -0.313rem;
+    width: 64.35rem;
+    height: 1.938rem;
+    border-style: solid;
+    border-width: 0.063rem;
+    border-color: rgba(204, 204, 204, 1);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  
+  #sendFormBttn {
+    background: linear-gradient(#FEB154, #F1833E);
+    float: right;
+    width: 12.819rem;
+    height: 1.938rem;
+    border-width: 0;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-right-radius: 0.25rem;
+  }
+  
+  #sendFormBttnText {
+    margin: 0;
+    color: white;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.938rem;
+    line-height: 1rem;
+    text-align: center;
+  }

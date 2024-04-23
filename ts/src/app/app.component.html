@@ -118,27 +118,49 @@
     <div id="discussionsHeaderDiv">
       <p id="discussionsTitle">Discussões</p>
     </div>
-    <p id="compartilheText">Compartilhe suas ideias ou dúvidas com os autores!</p>
-    <div id="iconsDiv">
-      <img src="../assets/icon1.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
-      <img src="../assets/icon2.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
-      <img src="../assets/icon3.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
-    </div>
-    <div id="discussionTextDiv">
-      <p id="discussionText">
-        Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? 
-        Deixe seus questionamentos ou sugestões para o autor!
+
+
+    <ng-container *ngIf="createTopicWasClicked">
+      <p id="compartilheText">
+        Compartilhe suas ideias ou dúvidas com os autores!
       </p>
-    </div>
-    <button class="btn-create-topic">
-      <span id="plusIcon">+</span>
-      <p id="createTopicText">
-        criar tópico
-      </p>
-    </button>
-    <div class="topicDiv">
+      <div id="iconsDiv">
+        <img src="../assets/icon1.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
+        <img src="../assets/icon2.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
+        <img src="../assets/icon3.png" alt="icon1" width="50.26px" height="48.94" id="icon1">
+      </div>
+      <div id="discussionTextDiv">
+        <p id="discussionText">
+          Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? 
+          Deixe seus questionamentos ou sugestões para o autor!
+        </p>
+      </div>
+      <button class="btn-create-topic" (click)="onclick()">
+        <span id="plusIcon">+</span>
+        <p id="createTopicText">
+          criar tópico
+        </p>
+      </button>
+    </ng-container>
+
+    <!-- Forms Component -->
+    <ng-container *ngIf="visible">
+      <app-create-forms-component 
+      [visible]="visible" 
+      [waitingFeedback]="waitingFeedback" 
+      (changeVisibleEvent)="changeVisible($event)"
+      (changeWaitingEvent)="changeWaiting($event)"></app-create-forms-component>
+    </ng-container>
+    
+    <!-- Waiting Feedback Component -->
+    <ng-container *ngIf="waitingFeedback">
+      <app-success-topic-sent></app-success-topic-sent>
+    </ng-container>  
+  
+    
+    <div class="topicDiv answered-topic">
       <div class="topicHeader">
-        <p class="topicTitle">
+        <p class="topicTitle ops-topic-subject">
           Assunto da pergunta aparece aqui
         </p>
         <p class="nameOfWhoAsked">
@@ -165,9 +187,9 @@
       </div>
     </div>
 
-    <div class="topicDiv">
+    <div class="topicDiv answered-topic">
       <div class="topicHeader">
-        <p class="topicTitle">
+        <p class="topicTitle ops-topic-subject">
           Assunto da pergunta aparece aqui
         </p>
         <p class="nameOfWhoAsked">
@@ -186,14 +208,21 @@
           <span class="fas fa-heart" id="likeIcon"></span>
         </button>
         <p class="likeText">
-          1 like
+          4 like
         </p>
-        <p class="answerBttnText">
-          1 resposta
+        <p class="answerBttnText" (click)="answerClick()">
+          4 resposta
         </p>
       </div>
     </div>
+
+    <!-- Author Answers Component -->
+    <ng-container *ngIf="showAnswers">
+      <app-authors-answers></app-authors-answers>
+    </ng-container>
+
   </section>
+  
 
     <!-- Footer -->
     <footer>

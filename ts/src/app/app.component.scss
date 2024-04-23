@@ -200,7 +200,7 @@ main {
   left: 0;
   top: 0;
   width: 66.188rem;
-  height: 86.375rem;
+  height: fit-content;
   margin-left: 16.438rem;
   margin-top: 5.5rem;
 }
@@ -538,7 +538,8 @@ main h2 {
 #discussionsDiv {
   top: 0;
   width: 66.125rem;
-  height: 38.813rem;
+  height: fit-content;
+  padding-bottom: 0.938rem;;
   margin-top: 1.875rem;
   border-style: solid;
   border-radius: 0.188rem;
@@ -742,7 +743,7 @@ main h2 {
 
 /* Footer */
 footer {
-  clear:left;
+
   width: 71.625rem;
   height: 11.313rem;
   margin-left: -2.688rem;
