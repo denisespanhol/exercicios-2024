@@ -66,3 +66,108 @@
     line-height: 1rem;
     text-align: center;
 }
+
+#waitingFeedbackDiv {
+    background: pink;
+    width: 64.25rem;
+    height: 9.25rem;
+    margin-left: 0.938rem;
+    margin-top: 0.875rem;
+}
+
+.topicDiv {
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    width: 64.25rem;
+    height: 9.25rem;
+    margin-left: 0.938rem;
+    margin-top: 0.938rem;
+    border-style: solid;
+    border-radius: 0.25rem;
+    border-width: 0.063rem;
+    border-color: rgba(231, 231, 231, 1);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .topicHeader {
+    width: 33.879rem;
+    height: 2.375rem;
+    margin-left: 1.511rem;
+  }
+  
+  .topicTitle {
+    margin: 0;
+    color: rgba(237, 120, 57, 1);
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  
+  .nameOfWhoAsked {
+    margin: 0;
+    color: rgba(92, 92, 92, 1);
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.938rem;
+  }
+  
+  .topicBody {
+    width: 61.292rem;
+    height: 2.188rem;
+    margin-left: 1.511rem;
+  }
+  
+  .topicBodyText {
+    margin: 0;
+    color: rgba(77, 77, 77, 1);
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.094rem;
+  }
+  
+  .topicFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 10.313rem;
+    height: 1.188rem;
+    margin-left: 1.5rem;
+  }
+  
+  .likeBttn {
+    margin: 0;
+    background: rgba(237, 120, 57, 1);
+    width: 1.688rem;
+    height: 1.188rem;
+    border-radius: 0.25rem;
+    border: none;
+  }
+  
+  #likeIcon {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0.188rem;
+    font-size: 0.875rem;
+    line-height: 0.875;
+  }
+  
+  .likeText {
+    color: rgba(117, 117, 117, 1);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-size: 0.875rem;
+    line-height: 1.164rem;
+  }
+  
+  .answerBttnText {
+    color: rgba(117, 117, 117, 1);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-size: 0.875rem;
+    line-height: 1.164rem;
+  }
