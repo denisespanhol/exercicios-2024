@@ -145,9 +145,16 @@
 
     
     <ng-container *ngIf="visible">
-      <app-create-forms-component [visible]="visible" (changeVisibleEvent)="changeVisible($event)"></app-create-forms-component>
+      <app-create-forms-component 
+      [visible]="visible" 
+      [waitingFeedback]="waitingFeedback" 
+      (changeVisibleEvent)="changeVisible($event)"
+      (changeWaitingEvent)="changeWaiting($event)"></app-create-forms-component>
     </ng-container>
     
+    <ng-container *ngIf="waitingFeedback">
+      <app-success-topic-sent></app-success-topic-sent>
+    </ng-container>  
   
     
     <div class="topicDiv">

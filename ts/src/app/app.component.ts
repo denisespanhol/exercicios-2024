@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   createTopicWasClicked: boolean = true;
   visible: boolean = false;
+  waitingFeedback: boolean = false;
 
   onclick()
   {
@@ -18,6 +19,11 @@ export class AppComponent {
   changeVisible(isVisible: boolean)
   {
     this.visible = isVisible;
+  }
+
+  changeWaiting(isVisible: boolean)
+  {
+    this.waitingFeedback = isVisible;
   }
 
   title = 'DevChuva';

@@ -12,7 +12,7 @@
       <textarea name="conteudo" id="conteudo" cols="30" rows="10"></textarea>
     </form>
     <div id="sendFormBttnDiv">
-      <button id="sendFormBttn" (click)="onclick()" (click)="onFeedbackClick()">
+      <button id="sendFormBttn" (click)="onclick()">
         <p id="sendFormBttnText">
           Enviar
         </p>
@@ -20,6 +20,3 @@
     </div>
   </section>
 
-  <ng-container *ngIf="waitingFeedback">
-    <app-success-topic-sent></app-success-topic-sent>
-  </ng-container>
