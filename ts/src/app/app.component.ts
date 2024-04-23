@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   createTopicWasClicked: boolean = false;
+  visible: boolean = false;
 
   onclick()
   {
     this.createTopicWasClicked = !this.createTopicWasClicked;
+    this.visible = !this.visible;
   }
 
   title = 'DevChuva';

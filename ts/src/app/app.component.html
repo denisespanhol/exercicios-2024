@@ -137,8 +137,11 @@
       </p>
     </button>
 
-
-    <app-create-forms-component id="formComponent"></app-create-forms-component>
+    
+    <ng-container *ngIf="visible">
+      <app-create-forms-component></app-create-forms-component>
+    </ng-container>
+    
 
 
     <div class="topicDiv">
