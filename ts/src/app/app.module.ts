@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ShowMoreButtonComponent } from './components/show-more-button/show-more-button.component';
+import { CreateFormsComponentComponent } from './components/create-forms-component/create-forms-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShowMoreButtonComponent
+    ShowMoreButtonComponent,
+    CreateFormsComponentComponent
   ],
   imports: [
     BrowserModule
