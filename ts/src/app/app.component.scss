@@ -750,13 +750,11 @@ footer {
 }
 
 #formsDiv {
-  background: pink;
   width: 64.063rem;
   height: 15.313rem;
 }
 
 #shareFeedbackTextDiv {
-  background: aquamarine;
   width: 60.336rem;
   height: 1.125rem;
   margin-left: 1.927rem;
@@ -787,6 +785,15 @@ label {
   border-style: solid;
   border-radius: 0.188rem;
   border-color: rgba(204, 204, 204, 1);
+}
+
+::placeholder {
+  color: rgba(77, 77, 77, 1);
+  padding: 1.446rem;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.094rem;
 }
 
 #conteudo {
