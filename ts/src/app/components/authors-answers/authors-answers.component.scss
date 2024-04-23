@@ -10,7 +10,6 @@
 }
 
 #authorNameDiv {
-    background: aquamarine;
     position: absolute;
     width: 33.913rem;
     height: 0.938rem;
@@ -25,4 +24,21 @@
     font-weight: 700;
     font-size: 0.75rem;
     line-height: 0.938rem;
+}
+
+#authorCommentDiv {
+    position: absolute;
+    width: 61.351rem;
+    height: 3.313rem;
+    margin-left: 1.449rem;
+    margin-top: 2.688rem;
+}
+
+#authorCommentText {
+    color: rgba(77, 77, 77, 1);
+    margin: 0;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.094rem;
 }
