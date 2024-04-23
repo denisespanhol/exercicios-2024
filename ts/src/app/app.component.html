@@ -143,7 +143,7 @@
       </button>
     </ng-container>
 
-    
+    <!-- Forms Component -->
     <ng-container *ngIf="visible">
       <app-create-forms-component 
       [visible]="visible" 
@@ -152,6 +152,7 @@
       (changeWaitingEvent)="changeWaiting($event)"></app-create-forms-component>
     </ng-container>
     
+    <!-- Waiting Feedback Component -->
     <ng-container *ngIf="waitingFeedback">
       <app-success-topic-sent></app-success-topic-sent>
     </ng-container>  
@@ -214,7 +215,12 @@
         </p>
       </div>
     </div>
-    <app-authors-answers></app-authors-answers>
+
+    <!-- Author Answers Component -->
+    <ng-container>
+      <app-authors-answers></app-authors-answers>
+    </ng-container>
+
   </section>
   
 
