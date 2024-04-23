@@ -9,6 +9,7 @@ export class AppComponent {
   createTopicWasClicked: boolean = true;
   visible: boolean = false;
   waitingFeedback: boolean = false;
+  showAnswers: boolean = false;
 
   onclick()
   {
